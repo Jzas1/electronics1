@@ -5,7 +5,6 @@ import User from '../models/userModel.js'
 //@desc     Auth user & get token
 //@route    Post /api/user
 //@access   Public
-
 const authUser = asyncHandler(async (req, res) => {
     const { email, password } = req.body
 
